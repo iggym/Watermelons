@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5FB175A61E68CBA80010121B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB175A51E68CBA70010121B /* AppDelegate.swift */; };
+		5FB175A81E68CBA80010121B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB175A71E68CBA80010121B /* ViewController.swift */; };
+		5FB175AB1E68CBA80010121B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FB175A91E68CBA80010121B /* Main.storyboard */; };
+		5FB175AD1E68CBA80010121B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FB175AC1E68CBA80010121B /* Assets.xcassets */; };
+		5FB175B01E68CBA80010121B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FB175AE1E68CBA80010121B /* LaunchScreen.storyboard */; };
+		5FB175BB1E68CBA80010121B /* WatermelonsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB175BA1E68CBA80010121B /* WatermelonsTests.swift */; };
+		5FB175C61E68CBA80010121B /* WatermelonsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB175C51E68CBA80010121B /* WatermelonsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5FB175B71E68CBA80010121B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FB1759A1E68CBA70010121B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FB175A11E68CBA70010121B;
+			remoteInfo = Watermelons;
+		};
+		5FB175C21E68CBA80010121B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FB1759A1E68CBA70010121B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FB175A11E68CBA70010121B;
+			remoteInfo = Watermelons;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5FB175A21E68CBA70010121B /* Watermelons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Watermelons.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FB175A51E68CBA70010121B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5FB175A71E68CBA80010121B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5FB175AA1E68CBA80010121B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5FB175AC1E68CBA80010121B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5FB175AF1E68CBA80010121B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5FB175B11E68CBA80010121B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FB175B61E68CBA80010121B /* WatermelonsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatermelonsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FB175BA1E68CBA80010121B /* WatermelonsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatermelonsTests.swift; sourceTree = "<group>"; };
+		5FB175BC1E68CBA80010121B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FB175C11E68CBA80010121B /* WatermelonsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatermelonsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FB175C51E68CBA80010121B /* WatermelonsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatermelonsUITests.swift; sourceTree = "<group>"; };
+		5FB175C71E68CBA80010121B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FB1759F1E68CBA70010121B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FB175B31E68CBA80010121B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FB175BE1E68CBA80010121B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FB175991E68CBA70010121B = {
+			isa = PBXGroup;
+			children = (
+				5FB175A41E68CBA70010121B /* Watermelons */,
+				5FB175B91E68CBA80010121B /* WatermelonsTests */,
+				5FB175C41E68CBA80010121B /* WatermelonsUITests */,
+				5FB175A31E68CBA70010121B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5FB175A31E68CBA70010121B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FB175A21E68CBA70010121B /* Watermelons.app */,
+				5FB175B61E68CBA80010121B /* WatermelonsTests.xctest */,
+				5FB175C11E68CBA80010121B /* WatermelonsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FB175A41E68CBA70010121B /* Watermelons */ = {
+			isa = PBXGroup;
+			children = (
+				5FB175A51E68CBA70010121B /* AppDelegate.swift */,
+				5FB175A71E68CBA80010121B /* ViewController.swift */,
+				5FB175A91E68CBA80010121B /* Main.storyboard */,
+				5FB175AC1E68CBA80010121B /* Assets.xcassets */,
+				5FB175AE1E68CBA80010121B /* LaunchScreen.storyboard */,
+				5FB175B11E68CBA80010121B /* Info.plist */,
+			);
+			path = Watermelons;
+			sourceTree = "<group>";
+		};
+		5FB175B91E68CBA80010121B /* WatermelonsTests */ = {
+			isa = PBXGroup;
+			children = (
+				5FB175BA1E68CBA80010121B /* WatermelonsTests.swift */,
+				5FB175BC1E68CBA80010121B /* Info.plist */,
+			);
+			path = WatermelonsTests;
+			sourceTree = "<group>";
+		};
+		5FB175C41E68CBA80010121B /* WatermelonsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5FB175C51E68CBA80010121B /* WatermelonsUITests.swift */,
+				5FB175C71E68CBA80010121B /* Info.plist */,
+			);
+			path = WatermelonsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FB175A11E68CBA70010121B /* Watermelons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FB175CA1E68CBA80010121B /* Build configuration list for PBXNativeTarget "Watermelons" */;
+			buildPhases = (
+				5FB1759E1E68CBA70010121B /* Sources */,
+				5FB1759F1E68CBA70010121B /* Frameworks */,
+				5FB175A01E68CBA70010121B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Watermelons;
+			productName = Watermelons;
+			productReference = 5FB175A21E68CBA70010121B /* Watermelons.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5FB175B51E68CBA80010121B /* WatermelonsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FB175CD1E68CBA80010121B /* Build configuration list for PBXNativeTarget "WatermelonsTests" */;
+			buildPhases = (
+				5FB175B21E68CBA80010121B /* Sources */,
+				5FB175B31E68CBA80010121B /* Frameworks */,
+				5FB175B41E68CBA80010121B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FB175B81E68CBA80010121B /* PBXTargetDependency */,
+			);
+			name = WatermelonsTests;
+			productName = WatermelonsTests;
+			productReference = 5FB175B61E68CBA80010121B /* WatermelonsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5FB175C01E68CBA80010121B /* WatermelonsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FB175D01E68CBA80010121B /* Build configuration list for PBXNativeTarget "WatermelonsUITests" */;
+			buildPhases = (
+				5FB175BD1E68CBA80010121B /* Sources */,
+				5FB175BE1E68CBA80010121B /* Frameworks */,
+				5FB175BF1E68CBA80010121B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FB175C31E68CBA80010121B /* PBXTargetDependency */,
+			);
+			name = WatermelonsUITests;
+			productName = WatermelonsUITests;
+			productReference = 5FB175C11E68CBA80010121B /* WatermelonsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FB1759A1E68CBA70010121B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Iggy Mwangi";
+				TargetAttributes = {
+					5FB175A11E68CBA70010121B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8X445N7629;
+						ProvisioningStyle = Automatic;
+					};
+					5FB175B51E68CBA80010121B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8X445N7629;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5FB175A11E68CBA70010121B;
+					};
+					5FB175C01E68CBA80010121B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8X445N7629;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5FB175A11E68CBA70010121B;
+					};
+				};
+			};
+			buildConfigurationList = 5FB1759D1E68CBA70010121B /* Build configuration list for PBXProject "Watermelons" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FB175991E68CBA70010121B;
+			productRefGroup = 5FB175A31E68CBA70010121B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FB175A11E68CBA70010121B /* Watermelons */,
+				5FB175B51E68CBA80010121B /* WatermelonsTests */,
+				5FB175C01E68CBA80010121B /* WatermelonsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FB175A01E68CBA70010121B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FB175B01E68CBA80010121B /* LaunchScreen.storyboard in Resources */,
+				5FB175AD1E68CBA80010121B /* Assets.xcassets in Resources */,
+				5FB175AB1E68CBA80010121B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FB175B41E68CBA80010121B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FB175BF1E68CBA80010121B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FB1759E1E68CBA70010121B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FB175A81E68CBA80010121B /* ViewController.swift in Sources */,
+				5FB175A61E68CBA80010121B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FB175B21E68CBA80010121B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FB175BB1E68CBA80010121B /* WatermelonsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FB175BD1E68CBA80010121B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FB175C61E68CBA80010121B /* WatermelonsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5FB175B81E68CBA80010121B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FB175A11E68CBA70010121B /* Watermelons */;
+			targetProxy = 5FB175B71E68CBA80010121B /* PBXContainerItemProxy */;
+		};
+		5FB175C31E68CBA80010121B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FB175A11E68CBA70010121B /* Watermelons */;
+			targetProxy = 5FB175C21E68CBA80010121B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5FB175A91E68CBA80010121B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FB175AA1E68CBA80010121B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5FB175AE1E68CBA80010121B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FB175AF1E68CBA80010121B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5FB175C81E68CBA80010121B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5FB175C91E68CBA80010121B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FB175CB1E68CBA80010121B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8X445N7629;
+				INFOPLIST_FILE = Watermelons/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.iggym.Watermelons;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5FB175CC1E68CBA80010121B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8X445N7629;
+				INFOPLIST_FILE = Watermelons/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.iggym.Watermelons;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		5FB175CE1E68CBA80010121B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8X445N7629;
+				INFOPLIST_FILE = WatermelonsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.iggym.WatermelonsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Watermelons.app/Watermelons";
+			};
+			name = Debug;
+		};
+		5FB175CF1E68CBA80010121B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8X445N7629;
+				INFOPLIST_FILE = WatermelonsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.iggym.WatermelonsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Watermelons.app/Watermelons";
+			};
+			name = Release;
+		};
+		5FB175D11E68CBA80010121B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 8X445N7629;
+				INFOPLIST_FILE = WatermelonsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.iggym.WatermelonsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Watermelons;
+			};
+			name = Debug;
+		};
+		5FB175D21E68CBA80010121B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 8X445N7629;
+				INFOPLIST_FILE = WatermelonsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.iggym.WatermelonsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Watermelons;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FB1759D1E68CBA70010121B /* Build configuration list for PBXProject "Watermelons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FB175C81E68CBA80010121B /* Debug */,
+				5FB175C91E68CBA80010121B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FB175CA1E68CBA80010121B /* Build configuration list for PBXNativeTarget "Watermelons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FB175CB1E68CBA80010121B /* Debug */,
+				5FB175CC1E68CBA80010121B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5FB175CD1E68CBA80010121B /* Build configuration list for PBXNativeTarget "WatermelonsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FB175CE1E68CBA80010121B /* Debug */,
+				5FB175CF1E68CBA80010121B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5FB175D01E68CBA80010121B /* Build configuration list for PBXNativeTarget "WatermelonsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FB175D11E68CBA80010121B /* Debug */,
+				5FB175D21E68CBA80010121B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FB1759A1E68CBA70010121B /* Project object */;
+}
