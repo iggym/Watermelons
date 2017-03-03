@@ -28,7 +28,7 @@ class ViewController: UICollectionViewController {
             }
         }
         
-        print(watermelonImages)
+        //print(watermelonImages)
         
     }
     
